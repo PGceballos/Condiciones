@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Condiciones / Pedido de stickers</title>
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+	<h1>Pedido de stickers</h1>
+	<p>Seleccione hasta 10 stickers de los siguientes tipos:</p>
+	<div>
+		<img src="/assets/img/Contenedor-Monta-cargas.jpg">
+		<label>Cantidad 1:</label>
+		<input type="number" min="0" max="10" value="0">
+	</div>
+	<div>
+		<img src="/assets/img/Buque de carga.jpg">
+		<label>Cantidad 2:</label>
+		<input type="number" min="0" max="10" value="0">
+	</div>
+	<div>
+		<img src="/assets/img/Avion-carguero.jpg">
+		<label>Cantidad 3:</label>
+		<input type="number" min="0" max="10" value="0">
+	</div>
+	<button onclick="calcularStickers()">Calcular stickers</button>
+	<p id="resultado"></p>
+	
+
+	<h1>Verificación de password</h1>
+	<p>Seleccione los dígitos de cada posición:</p>
+	<select id="posicion1">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+	</select>
+	<select id="posicion2">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+	</select>
+	<select id="posicion3">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+	</select>
+	<button onclick="verificarPassword()">Ingresar</button>
+    <p id="resultado"></p>
+
+	<script src="/assets/script/script.js"></script>	
+</body>
+</html>
